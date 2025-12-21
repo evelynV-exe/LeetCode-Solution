@@ -8,7 +8,8 @@ class Solution:
                 return [lookup[complement], i]
             lookup[num] = i
 
+sol = Solution()
 input = [2, 7, 11, 15]
 target = 9
 
-print(Solution.twoSum(input, target))
+print(sol.twoSum(input, target))
